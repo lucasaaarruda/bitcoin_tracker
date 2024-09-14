@@ -1,30 +1,77 @@
-# Bitcoin Preço
+# Bitcoin Preço 💰
 
-# Sobre o projeto
+Este projeto tem como objetivo fornecer uma visualização em tempo real do preço do Bitcoin em várias moedas. A interface é projetada para ser intuitiva e de fácil compreensão, mostrando o valor do Bitcoin em Dólar, Real, Euro e Libra.
 
-Esse projeto é focado em acompanhar o valor do Bitcoin em tempo real e em diversas moedas, sendo bem claro para o entendimento.
+## 🚀 Sobre o Projeto
 
-Temos o valor em Dólar como principal, em Real, em Euro e em Libra.
+O **Bitcoin Preço** é uma aplicação desenvolvida para acompanhar e exibir o valor do Bitcoin em diferentes moedas. A aplicação é construída para ser clara e fácil de usar, fornecendo dados em tempo real diretamente de uma API.
 
-## Layout
-![Interface](https://github.com/lucasaaarruda/bitcoin_tracker/blob/main/bitcoin_tracker/images/layout-bitcoin.png)
+## 💻 Tecnologias Utilizadas
 
-# Tecnologias utilizadas
-Utilizamos o **Python** como linguagem do projeto, o **Tkinter** para criação da janela e interface, o **Pillow** para criação do ícone do Bitcoin como imagem e o **Request** para requisição de onde fazemos o acompanhamento em tempo real dos valores.
-## Back-end
+- **Python:** Linguagem principal utilizada para o desenvolvimento do projeto.
+- **Tkinter:** Biblioteca para criação da interface gráfica do usuário (GUI).
+- **Pillow:** Biblioteca para manipulação de imagens, utilizada para o ícone do Bitcoin.
+- **Requests:** Biblioteca para fazer requisições HTTP e obter os valores em tempo real.
+
+### Back-end
+
 - **Python**
 - **Tkinter**
 - **Pillow**
+- **Requests**
 
-# Como executar o projeto
-Pré-requisitos: Python, Tkinter, Pillow
+## 🚀 Como Executar o Projeto
 
-- Faça o clone do projeto
-- Instale o ```Tkinter``` e o ```Pillow```
-- Execute diretamente o ```main.py```
+1. **Clone o Repositório:**
 
-# Autor
+    ```bash
+    git clone https://github.com/lucasaaarruda/bitcoin_tracker
+    ```
 
-Lucas Arruda
+2. **Instale as Dependências:**
 
-https://www.linkedin.com/in/lucasaarruda/
+    Certifique-se de que o **Tkinter** e o **Pillow** estão instalados. Caso não estejam, você pode instalá-los utilizando o pip:
+
+    ```bash
+    pip install pillow requests
+    ```
+
+3. **Execute o Projeto:**
+
+    Navegue até o diretório do projeto e execute o arquivo principal `main.py`:
+
+    ```bash
+    cd bitcoin_tracker
+    python main.py
+    ```
+
+    A aplicação será iniciada e a interface gráfica será exibida.
+
+## 📈 Layout
+
+A interface foi projetada para exibir o valor do Bitcoin em quatro moedas principais:
+
+- **Dólar (USD)**
+- **Real (BRL)**
+- **Euro (EUR)**
+- **Libra Esterlina (GBP)**
+
+## 🛠️ Recursos Adicionais
+
+- **Repositório:** [Bitcoin Tracker](https://github.com/lucasaaarruda/bitcoin_tracker)
+
+## 🤝 Contribuições
+
+Este projeto está aberto para melhorias e contribuições. Se você tiver sugestões ou encontrar problemas, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## 📧 Contato
+
+Para mais informações ou dúvidas, entre em contato:
+
+- **LinkedIn:** [Lucas Arruda](https://www.linkedin.com/in/lucasaarruda/)
+
+Obrigado por conferir o projeto! Espero que você ache útil e interessante.
+
+---
+
+Se precisar de mais ajustes ou informações, estou à disposição!
